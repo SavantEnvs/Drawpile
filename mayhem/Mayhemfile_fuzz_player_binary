@@ -1,0 +1,10 @@
+project: savantenvs/Drawpile
+target: fuzz-player-binary
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-player-binary/testsuite
+
+cmds:
+  - cmd: /mayhem/build-fuzz/bin/fuzz_player_binary
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,10 @@
+project: savantenvs/Drawpile
+target: fuzz-load-psd
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-load-psd/testsuite
+
+cmds:
+  - cmd: /mayhem/build-fuzz/bin/fuzz_load_psd
+    libfuzzer: true
+    timeout: 10

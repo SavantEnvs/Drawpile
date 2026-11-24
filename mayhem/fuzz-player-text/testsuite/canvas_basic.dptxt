@@ -1,0 +1,18 @@
+!version=dp:4.25.1
+!writer=mayhem-seed
+!type=recording
+1 resize {"bottom":96,"left":0,"right":128,"top":0}
+1 layertreecreate {"fill":"#ffffffff","flags":[],"id":257,"source":0,"target":0,"title":"Background"}
+1 layertreecreate {"fill":"#00000000","flags":[],"id":258,"source":0,"target":257,"title":"Ink"}
+1 undopoint
+1 classicdabs {"color":"#ff0000ff","flags":0,"layer":258,"mode":"svg:src-over","x":20,"y":20,"_":[{"x":0,"y":0,"size":12,"hardness":200,"opacity":255},{"x":3,"y":2,"size":12,"hardness":200,"opacity":255},{"x":3,"y":2,"size":10,"hardness":120,"opacity":200}]}
+1 pixeldabs {"color":"#ff00ff00","flags":0,"layer":258,"mode":"svg:multiply","x":40,"y":40,"_":[{"x":0,"y":0,"size":5,"opacity":255},{"x":2,"y":2,"size":5,"opacity":128}]}
+1 squarepixeldabs {"color":"#ff0000ff","flags":0,"layer":258,"mode":"svg:src-over","x":60,"y":30,"_":[{"x":0,"y":0,"size":4,"opacity":255},{"x":1,"y":1,"size":4,"opacity":255}]}
+1 mypaintdabs {"color":"#ff3030c0","colorize":0,"flags":0,"layer":258,"lock_alpha":0,"mode":1,"posterize":0,"x":70,"y":50,"_":[{"x":0,"y":0,"size":16,"hardness":180,"opacity":220,"angle":0,"aspect_ratio":0},{"x":4,"y":4,"size":16,"hardness":180,"opacity":220,"angle":0,"aspect_ratio":0}]}
+1 penup {"layer":258}
+1 undopoint
+1 fillrect {"color":"#ff00ff00","h":20,"layer":257,"mode":"svg:src-over","w":30,"x":5,"y":60}
+1 layerattr {"flags":[],"id":258,"opacity":128,"blend":"svg:screen","sublayer":0}
+1 undopoint
+1 undo {"override_user":0,"redo":false}
+1 undo {"override_user":0,"redo":true}
